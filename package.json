@@ -1,0 +1,26 @@
+{
+  "name": "holydayzer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "practice back-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carol-xavier/Holydayzer.git"
+  },
+  "keywords": [
+    "holydays"
+  ],
+  "author": "CarolXavier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carol-xavier/Holydayzer/issues"
+  },
+  "homepage": "https://github.com/carol-xavier/Holydayzer#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
