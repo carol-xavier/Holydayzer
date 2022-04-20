@@ -42,7 +42,6 @@ app.get("/is-today-holiday", (req, res) => {
 app.get("/month-holidays/:monthId", (req, res) => {
     const id = parseInt(req.params.monthId);
     const monthHolidays = holidays.filter(holiday => holiday.month === id);
-
     const monthName = calendar.get(id);
 
     if (monthHolidays.length !== 0) {
